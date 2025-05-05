@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>MozaBook Assistant</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div id="navigation-menu" class="mozabook-navigation-menu">
+      <div class="mozabook-header">
+        <a href="./popup.html" class="mozabook-back-link">←</a>
+        <h2 class="mozabook-title">Навігація по сайту</h2>
+        <div class="mozabook-header-buttons">
+          <button id="theme-toggle" class="mozabook-header-button">🌙</button>
+          <button
+            id="clear-recent"
+            class="mozabook-header-button"
+            title="Очистити історію"
+          >
+            🗑️
+          </button>
+        </div>
+      </div>
+      <div id="nav-links-container" class="mozabook-nav-links-container"></div>
+    </div>
+  </body>
+  <script src="../js/navigation.js"></script>
+  <script src="../js/themeToggle.js"></script>
+</html>

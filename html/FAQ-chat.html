@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div id="chat-mode" class="mozabook-chat-container">
+      <div class="mozabook-header">
+        <a href="./popup.html" class="mozabook-back-link">←</a>
+        <h2 class="mozabook-title">Mozabook AI Assistant</h2>
+        <div class="mozabook-header-buttons">
+          <button id="theme-toggle" class="mozabook-header-button">🌙</button>
+          <button
+            id="chat-clear-recent"
+            class="mozabook-header-button"
+            title="Очистити історію"
+          >
+            🗑️
+          </button>
+        </div>
+      </div>
+
+      <div id="chat-messages" class="mozabook-chat-messages"></div>
+
+      <div class="mozabook-chat-input-container">
+        <form id="search-form" class="mozabook-search-form">
+          <div class="input-wrapper">
+            <input
+              type="text"
+              class="mozabook-query-input"
+              placeholder="Введіть ваше запитання..."
+              autocomplete="off"
+            />
+            <ul class="suggestions-list"></ul>
+          </div>
+          <button class="mozabook-form-button" type="submit">Надіслати</button>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <script src="../js/themeToggle.js"></script>
+  <script src="../js/FAQ-chat.js"></script>
+</html>

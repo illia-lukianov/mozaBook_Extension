@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "MozaBook Extension",
+  "version": "1.0",
+  "description": "Розширення для MozaBook з інтерактивними можливостями.",
+  "icons": {
+    "128": "images/MozaBook_Logo.png"
+  },
+  "action": {
+    "default_popup": "/html/popup.html",
+    "default_icon": "images/MozaBook_Logo.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*",
+        "js/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
