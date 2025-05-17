@@ -170,13 +170,14 @@ body {
   transform: scale(1.1);
 }
 
-.autor-wrapper {
+.author-wrapper {
   margin: 0 auto;
   background: linear-gradient(90deg, #64b5f6, #1a73e8);
   width: 150px;
   align-content: center;
   padding: 10px;
   border-radius: 12px;
+  font-size: medium;
 }
 
 .mozabook-navigation-menu {
